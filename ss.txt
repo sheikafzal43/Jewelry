@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exclusive jewellery collections with the best designs.">
+    <title>Jewellery Store</title>
+    <!-- SEO and Bootstrap Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome for icons -->
+</head>
+<body class="dark-theme">
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#"><img src="logo/logo.png" alt="Logo" width="50"> Jewellery Store</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="collections.html">Collections</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Banner -->
+    <section id="hero">
+        <div class="carousel slide" data-ride="carousel" id="heroCarousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner1.jpg" class="d-block w-100" alt="New Arrivals">
+                    <div class="carousel-caption">
+                        <h2>Discover the Latest in Jewellery</h2>
+                        <p>Elegance in every piece</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner2.jpg" class="d-block w-100" alt="Exclusive Pieces">
+                    <div class="carousel-caption">
+                        <h2>Exclusive Collection</h2>
+                        <p>Handcrafted for you</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+    
+    <!-- Featured Collections -->
+    <section id="featured" class="container my-5">
+        <h3 class="text-center">Featured Collections</h3>
+        <div class="row">
+            <!-- Sample Featured Collection -->
+            <div class="col-md-4 text-center">
+                <img src="images/featured1.jpg" alt="Best Seller" class="img-fluid">
+                <h5>Best Sellers</h5>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="images/featured2.jpg" alt="New Arrivals" class="img-fluid">
+                <h5>New Arrivals</h5>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="images/featured3.jpg" alt="Exclusive Pieces" class="img-fluid">
+                <h5>Exclusive Pieces</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

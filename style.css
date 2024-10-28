@@ -1,0 +1,231 @@
+/* General Dark Theme Styles */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Navbar Styling */
+.custom-navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.custom-navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.custom-navbar .nav-link {
+    font-size: 1.1rem;
+    color: #fff !important;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffeb3b !important;
+    font-weight: bold;
+}
+
+/* Carousel Caption Styling */
+.carousel .carousel-caption h5 {
+    color: #ffeb3b;
+}
+
+img {
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid #333;
+}
+
+.newsletter form input {
+    background-color: #222;
+    color: #fff;
+    border: none;
+}
+
+.newsletter form input::placeholder {
+    color: #bbb;
+}
+
+
+/* Jewellery Gallery */
+.jewellery-gallery {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.jewellery-gallery h2 {
+    color: #ffeb3b;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Gallery Item Styling */
+.gallery-item {/* General Dark Theme Styles */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Navbar Styling */
+.custom-navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.custom-navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.custom-navbar .nav-link {
+    font-size: 1.1rem;
+    color: #fff !important;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffeb3b !important;
+    font-weight: bold;
+}
+
+/* Navbar Hover Animation */
+.navbar-nav .nav-link.hover-active {
+    color: #ffeb3b !important;
+    transform: scale(1.05);
+}
+
+/* Carousel Caption Styling */
+.carousel .carousel-caption h5 {
+    color: #ffeb3b;
+}
+
+img {
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Carousel Control Hover */
+.carousel-control-prev.carousel-control-hover,
+.carousel-control-next.carousel-control-hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid #333;
+}
+
+/* Jewellery Gallery */
+.jewellery-gallery {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.jewellery-gallery h2 {
+    color: #ffeb3b;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Gallery Item Styling */
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-text h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffeb3b;
+}
+
+.overlay-text p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-text h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffeb3b;
+}
+
+.overlay-text p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+
