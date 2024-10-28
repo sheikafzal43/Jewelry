@@ -1,0 +1,34 @@
+/* General Styling */
+.text-gold {
+    color: #ffeb3b;
+}
+
+.btn-gold {
+    background-color: #ffeb3b;
+    color: #121212;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-gold:hover {
+    background-color: #e6d300;
+    color: #000;
+}
+
+.about-us-content img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+    font-size: 2rem;
+    color: #ffeb3b;
+    margin-bottom: 10px;
+}
+
+.adsense-placeholder {
+    border: 1px dashed #ccc;
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+}

@@ -1,0 +1,43 @@
+/* General Styling */
+.text-gold {
+    color: #ffeb3b;
+}
+
+.btn-outline-gold {
+    color: #ffeb3b;
+    border: 1px solid #ffeb3b;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+    background-color: #ffeb3b;
+    color: #121212;
+}
+
+/* Blog Item Styling */
+.blog-item, .featured-blog {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-item:hover, .featured-blog:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.blog-item img, .featured-blog img {
+    transition: transform 0.3s ease;
+}
+
+.blog-item img:hover, .featured-blog img:hover {
+    transform: scale(1.05);
+}
+
+/* AdSense Placeholder */
+.adsense-placeholder {
+    border: 1px dashed #ccc;
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+}
